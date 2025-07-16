@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 # 💫 About Me:
-<h1>I'm currently learning Web Development </h1><br><br/><br><h2>Currently working on my project.</h2><br><br>
+<h3>I'm a full stack Web developer. my projects are shown in my repo's. thank you </h3><br><br/>
 
 
 ## 🌐 Socials:
