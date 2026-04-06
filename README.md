@@ -1,10 +1,8 @@
 # Hi, I'm Rohit Jadhav 👋
 
-### Full Stack Web Developer · 3rd Year CS Student
+### Full Stack Web Developer · 3rd Year Student
 
-> I build full-stack web apps that solve real problems. Currently in my 3rd year,
-> focused on shipping products, not just writing code. Open to internships at 
-> startups where I can contribute from day one.
+>I build full-stack products that solve real problems — not tutorial projects, not clones, real things people can use.Currently in my 3rd year at NIT Silchar, >I've already shipped a full-stack React Native society management app with a Python ML microservice handling NLP complaint classification and AI payment risk >prediction. Razorpay integrated, JWT authenticated, deployed and working. Built it alone, end to end.I don't wait to learn something before I need it. I pick it >up while building. That's how I went from web development to integrating Machine Learning into a mobile app — because the problem demanded it.I'm not looking for >an internship to put on my resume. I'm looking for a team where I can contribute from day one, own real features, and build things that actually ship.If you're a >startup moving fast and need someone who figures things out — I'm your person.
 
 ---
 
