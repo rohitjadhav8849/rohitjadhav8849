@@ -79,5 +79,5 @@ React Native · Node.js · Express · MongoDB · Python · Scikit-learn · Razor
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-jadhav-8bb77127a)
 
-📍 Guwahati, India  
+📍 Bharuch, India  
 Open to **remote / relocation / startup roles**
