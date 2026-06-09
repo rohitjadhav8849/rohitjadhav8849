@@ -8,7 +8,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohitjadhav8849)
 [![Hashnode](https://img.shields.io/badge/Blog-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://llm-deployment.hashnode.dev)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/pbej5XLWinA)
-[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](YOUR_RESUME_LINK_HERE)
+[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1lejcDGnUQ1qKBguN8ya_qKlQd_AxThiW/view?usp=drive_link)
 
 <br/>
 
@@ -201,8 +201,8 @@ I'm actively looking for **backend, full stack, and software engineering roles**
 Remote / Relocation / Hybrid — open to all.
 
 [![LinkedIn](https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohit-jadhav-8bb77127a)
-[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
-[![Resume](https://img.shields.io/badge/View_Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](YOUR_RESUME_LINK_HERE)
+[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](jadhavrohir@email.com)
+[![Resume](https://img.shields.io/badge/View_Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1lejcDGnUQ1qKBguN8ya_qKlQd_AxThiW/view?usp=drive_link)
 
 </div>
 
