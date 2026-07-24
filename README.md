@@ -46,6 +46,78 @@ Deployed **Mistral 7B** on Kubernetes with Grafana monitoring, built a FastAPI b
 
 ## 🚀 Featured Projects
 
+### 🧠 DevMind AI — Enterprise Knowledge Intelligence Platform (Agentic RAG)
+
+> An enterprise-grade Retrieval-Augmented Generation (RAG) platform that lets users chat with their documents in natural language, with answers grounded in retrieved content instead of raw LLM guesswork
+
+**The Problem:**
+- LLMs hallucinate when answering questions outside their training data
+- Teams need to query internal documents (PDFs, reports, manuals) without manual searching
+- Pre-trained knowledge alone can't answer document-specific questions accurately
+
+**What I Built:**
+
+Users upload PDF documents through a custom ingestion pipeline. The extracted text is chunked, converted into vector embeddings using **BAAI/bge-small-en-v1.5**, and stored in **Qdrant** for fast semantic search. When a user asks a question, the query is embedded, the most relevant chunks are retrieved via similarity search, a contextual prompt is constructed, and it's sent to a locally hosted **Mistral 7B** model running through **Ollama** — producing answers grounded in the actual document content instead of hallucinated ones.
+
+| Feature | Tech |
+|---------|------|
+| 🎨 Frontend | React + Vite + Axios |
+| ⚙️ Backend API | FastAPI + Pydantic |
+| 🧩 Embeddings | Sentence Transformers (BAAI/bge-small-en-v1.5) |
+| 🗂️ Vector Store | Qdrant (semantic search) |
+| 🧠 LLM Inference | Mistral 7B via Ollama (self-hosted) |
+| 🔍 Core Technique | Retrieval-Augmented Generation (RAG) + Prompt Engineering |
+
+**Architecture**
+
+```
+PDF Upload
+     │
+     ▼
+Document Processing
+     │
+     ▼
+Text Chunking
+     │
+     ▼
+Embedding Generation
+(BAAI/bge-small-en-v1.5)
+     │
+     ▼
+Qdrant Vector Database
+     │
+     ▼
+User Query
+     │
+     ▼
+Query Embedding
+     │
+     ▼
+Semantic Search
+     │
+     ▼
+Prompt Construction
+     │
+     ▼
+Mistral 7B (Ollama)
+     │
+     ▼
+AI Response
+```
+
+**Key Features:**
+- 📄 Upload and process PDF documents end to end
+- 🧩 Automatic document chunking and vector embedding generation
+- 🔎 Semantic search over documents using Qdrant
+- 💬 Context-aware, hallucination-resistant Q&A via RAG
+- 🖥️ Fully local LLM inference — no external API calls, no data leaving the server
+- 🧱 Modular, service-oriented backend (Document Processor, Embedding Service, Retrieval Service, Prompt Builder, LLM Service)
+- ⚛️ Clean, responsive React chat interface
+
+[![GitHub](https://img.shields.io/badge/View_DevMind_AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rohitjadhav8849)
+
+---
+
 ### 🏢 SocietyPay — AI-Powered Society Management Platform
 
 > A production-grade full-stack mobile platform that automates residential society management using ML, NLP, and scalable backend infrastructure
@@ -132,6 +204,7 @@ Redis    BullMQ (background jobs)
 ### Mobile & Web
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
@@ -143,10 +216,12 @@ Redis    BullMQ (background jobs)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-### ML & AI
+### AI & RAG
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white)
 ![Mistral](https://img.shields.io/badge/Mistral_7B-FF6B35?style=for-the-badge&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)
+![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-FFB300?style=for-the-badge&logoColor=white)
 
 ### DevOps & Cloud
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
